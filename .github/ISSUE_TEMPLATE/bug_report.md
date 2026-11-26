@@ -1,5 +1,6 @@
 ---
-name: Bug report about: Report a reproducible project issue
+name: Bug report
+about: Report a reproducible project issue
 labels: bug
 ---
 
