@@ -1,0 +1,47 @@
+# Credentials and local secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*
+*token*
+
+# Private diagnostics and machine-specific data
+private-diagnostics/
+**/private-diagnostics/
+*.sysdiagnose
+*.ipsw
+*.diag
+serial-number*
+
+# Build and package artifacts
+/build/
+/dist/
+/out/
+*.iso
+*.img
+*.dmg
+*.pkg
+*.deb
+*.rpm
+*.tar
+*.tar.gz
+*.xz
+*.o
+*.ko
+*.a
+*.so
+*.dylib
+*.elf
+*.bin
+
+# Editor and OS files
+.DS_Store
+.AppleDouble
+._*
+.idea/
+.vscode/
+*.swp
